@@ -55,4 +55,13 @@ print(bool(n))  # Should output: False (empty string is considered False)
 b = True
 print(str(b))  # Should output: 'True'
 
+#Global Varibales
+def declare_global():
+    global new_global_variable
+    new_global_variable = "Declared and modified globally."
+
+declare_global()
+print(new_global_variable)  # This will print: Declared and modified globally.
+
+
 ```
