@@ -67,7 +67,7 @@ print(new_global_variable)  # This will print: Declared and modified globally.
 ```
 ## Conditional statements
 
-```
+```python
 # Example 1: Basic if statement
 x = 5
 if x > 0:
