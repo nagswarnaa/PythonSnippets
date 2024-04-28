@@ -65,3 +65,63 @@ print(new_global_variable)  # This will print: Declared and modified globally.
 
 
 ```
+## Conditional statements
+
+```
+# Example 1: Basic if statement
+x = 5
+if x > 0:
+    print("x is positive")
+
+# Example 2: if-else statement
+y = -5
+if y > 0:
+    print("y is positive")
+else:
+    print("y is not positive")
+
+# Example 3: elif statement
+z = 0
+if z > 0:
+    print("z is positive")
+elif z == 0:
+    print("z is zero")
+else:
+    print("z is negative")
+
+# Example 4: Nested if statements
+a = 10
+b = 20
+if a < b:
+    print("a is less than b")
+    if a == 10:
+        print("a is 10")
+
+# Example 5: if with logical operators
+a = 10
+b = 5
+if a > 0 and b > 0:
+    print("Both a and b are positive")
+
+# Example 6: if with comparison operators
+if a >= b:
+    print("a is greater than or equal to b")
+
+# Example 7: Using if with lists
+my_list = [1, 2, 3]
+if 2 in my_list:
+    print("2 is in the list")
+
+# Example 8: Using if with dictionaries
+my_dict = {'name': 'Alice', 'age': 25}
+if 'name' in my_dict:
+    print("name is a key in the dictionary")
+
+# Example 9: One-line if statement
+if a > b: print("a is greater than b")
+
+# Example 10: Conditional expression (ternary operator)
+result = "a is greater than b" if a > b else "b is greater than or equal to a"
+print(result)
+
+```
