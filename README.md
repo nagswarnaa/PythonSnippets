@@ -1,5 +1,8 @@
 # Important Python Snippets For Competetive Coding 
 
+## Important Algorithms to know:
+Manacher's Algorithm
+
 ### Type-Conversions, Assignments
 
 ```python
